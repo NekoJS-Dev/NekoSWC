@@ -1,0 +1,141 @@
+[153月2026 13:45:31.946] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 116ms
+[153月2026 13:45:31.954] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 11.0.0 (CLIENT in DEV)
+[153月2026 13:45:31.956] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: D:\mcmodDemo\NekoSWC\run
+[153月2026 13:45:32.003] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 111) in 15ms
+[153月2026 13:45:32.005] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[153月2026 13:45:32.005] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/11515/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/11.0.0/ff17cf55bcf18ef4a83a5e108bbcf27a78aba844/earlydisplay-11.0.0.jar
+[153月2026 13:45:32.006] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/11515/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/11.0.0/ee08faf8743b13ec64a5bdc788b48f64d3789e69/loader-11.0.0.jar
+[153月2026 13:45:32.010] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[153月2026 13:45:32.448] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[153月2026 13:45:32.486] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: Intel(R) Iris(R) Xe Graphics GL version 3.3.0 - Build 31.0.101.3251, Intel
+[153月2026 13:45:32.524] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates nekoswc%%D:\mcmodDemo\NekoSWC\build\classes\java\main;nekoswc%%D:\mcmodDemo\NekoSWC\build\resources\main from env
+[153月2026 13:45:32.646] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[153月2026 13:45:32.648] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		GraalJS 25.0.1 (graaljs)
+		Minecraft 26.1-snapshot-11 (minecraft)
+		NekoJS 1.0.0 (nekojs)
+		NekoSWC 1.0.0 (nekoswc)
+		NeoForge 26.1.0.0-alpha.14+snapshot-11 (neoforge)
+[153月2026 13:45:32.840] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/11515/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[153月2026 13:45:32.862] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[153月2026 13:45:32.862] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/11515/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.1.0.0-alpha.14+snapshot-11/4e7cb49fabf1bc4eaa7b72e2b35eed3bc3943801/neoforge-26.1.0.0-alpha.14+snapshot-11-universal.jar > net.neoforged.neoforge-coremods-26.1.0.0-alpha.14+snapshot-11.jar
+[153月2026 13:45:32.970] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - graaljs (jar(D:/mcmodDemo/NekoSWC/libs/GraalJS-25.0.1-neoforge.jar))
+ - minecraft (composite(filtered(jar(D:/mcmodDemo/NekoSWC/build/moddev/artifacts/minecraft-patched-26.1.0.0-alpha.14+snapshot-11.jar)), filtered(jar(D:/mcmodDemo/NekoSWC/build/moddev/artifacts/minecraft-patched-26.1.0.0-alpha.14+snapshot-11.jar))))
+ - mixinextras.neoforge (jar(C:/Users/11515/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.1.0.0-alpha.14+snapshot-11/4e7cb49fabf1bc4eaa7b72e2b35eed3bc3943801/neoforge-26.1.0.0-alpha.14+snapshot-11-universal.jar > mixinextras-neoforge-0.5.0.jar))
+ - nekojs (jar(D:/mcmodDemo/NekoSWC/libs/nekojs-1.26.1.0.0-alpha-1.0.0.jar))
+ - nekoswc (composite(folder(D:/mcmodDemo/NekoSWC/build/classes/java/main), folder(D:/mcmodDemo/NekoSWC/build/resources/main)))
+ - neoforge (composite(filtered(jar(C:/Users/11515/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.1.0.0-alpha.14+snapshot-11/4e7cb49fabf1bc4eaa7b72e2b35eed3bc3943801/neoforge-26.1.0.0-alpha.14+snapshot-11-universal.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
+[153月2026 13:45:32.992] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 31ms
+[153月2026 13:45:33.962] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 294 Datafixer optimizations took 246 milliseconds
+[153月2026 13:45:34.006] [pool-10-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[153月2026 13:45:37.217] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[153月2026 13:45:37.218] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[153月2026 13:45:37.219] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[153月2026 13:45:37.221] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[153月2026 13:45:37.221] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[153月2026 13:45:37.222] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [time, set, time] and [time, set, timemarker] with inputs: [0, 0s, 0d, 0t]
+[153月2026 13:45:37.222] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [time, set, timemarker] and [time, set, time] with inputs: [012]
+[153月2026 13:45:37.224] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [time, of, clock, set, time] and [time, of, clock, set, timemarker] with inputs: [0, 0s, 0d, 0t]
+[153月2026 13:45:37.224] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [time, of, clock, set, timemarker] and [time, of, clock, set, time] with inputs: [012]
+[153月2026 13:45:37.226] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[153月2026 13:45:37.262] [modloading-worker-0/INFO] [com.tkisor.nekoswc.NekoSWC/]: [NekoSWC] 正在初始化 TypeScript / JSX 编译引擎...
+[153月2026 13:45:37.272] [modloading-worker-0/INFO] [com.tkisor.nekojs.NekoJS/]: [NekoJS] 成功生成工作区配置文件: jsconfig.json
+[153月2026 13:45:37.272] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 26.1.0.0-alpha.14+snapshot-11, for MC 26.1 Snapshot 11
+[153月2026 13:45:37.274] [modloading-worker-0/INFO] [com.tkisor.nekojs.NekoJS/]: [NekoJS] Registered plugin: com.tkisor.nekojs.core.NekoJSCorePlugin
+[153月2026 13:45:37.277] [modloading-worker-0/INFO] [com.tkisor.nekojs.NekoJS/]: [NekoJS] Plugin scan finished
+[153月2026 13:45:37.277] [modloading-worker-0/INFO] [com.tkisor.nekojs.NekoJS/]: [NekoJS] 正在执行 STARTUP 与 COMMON 脚本...
+[153月2026 13:45:37.282] [modloading-worker-0/INFO] [nekojs.common/]: 发现了 1 个 COMMON 脚本。
+[153月2026 13:45:37.283] [modloading-worker-0/INFO] [nekojs.startup/]: 发现了 1 个 STARTUP 脚本。
+[153月2026 13:45:37.285] [modloading-worker-0/INFO] [nekojs.server/]: 发现了 3 个 SERVER 脚本。
+[153月2026 13:45:37.287] [modloading-worker-0/INFO] [nekojs.client/]: 发现了 1 个 CLIENT 脚本。
+[153月2026 13:45:38.084] [modloading-worker-0/INFO] [com.tkisor.nekojs.NekoJS/]: 正在注册 7 个事件组...
+[153月2026 13:45:38.120] [modloading-worker-0/INFO] [nekojs.startup/]: Hello, World! (Loaded startup example script)
+[153月2026 13:45:38.132] [modloading-worker-0/INFO] [com.tkisor.nekojs.NekoJS/]: 正在注册 7 个事件组...
+[153月2026 13:45:38.135] [modloading-worker-0/INFO] [nekojs.common/]: Hello, World! (Loaded common example script)
+[153月2026 13:45:38.350] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[153月2026 13:45:38.362] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[153月2026 13:45:38.433] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.4.1+2
+[153月2026 13:45:38.554] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+[153月2026 13:45:39.002] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/nekojs, mod/graaljs, mod/nekoswc, mod/neoforge
+[153月2026 13:45:39.065] [Render thread/INFO] [com.tkisor.nekojs.NekoJS/]: [NekoJS] 成功生成工作区配置文件: tsconfig.json
+[153月2026 13:45:39.114] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-17.0.01.hex, loading
+[153月2026 13:45:39.117] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-17.0.01.hex, loading
+[153月2026 13:45:39.223] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-17.0.01.hex, loading
+[153月2026 13:45:41.061] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[153月2026 13:45:41.062] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[153月2026 13:45:41.062] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[153月2026 13:45:41.086] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[153月2026 13:45:41.088] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[153月2026 13:45:41.127] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[153月2026 13:45:41.130] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[153月2026 13:45:41.135] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[153月2026 13:45:41.786] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[153月2026 13:45:41.860] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[153月2026 13:45:41.893] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[153月2026 13:45:41.895] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
+[153月2026 13:45:41.895] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[153月2026 13:45:41.950] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[153月2026 13:45:41.984] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[153月2026 13:45:41.985] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
+[153月2026 13:45:41.987] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[153月2026 13:45:42.065] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[153月2026 13:54:22.061] [Worker-Main-20/INFO] [nekojs.server/]: 正在重载 SERVER 脚本...
+[153月2026 13:54:22.063] [Worker-Main-20/INFO] [nekojs.server/]: 发现了 3 个 SERVER 脚本。
+[153月2026 13:54:22.073] [Worker-Main-20/INFO] [com.tkisor.nekojs.NekoJS/]: 正在注册 7 个事件组...
+[153月2026 13:54:22.114] [Worker-Main-20/INFO] [nekojs.server/]: [Import Test] 当前运行的模组是: NekoJS
+[153月2026 13:54:22.117] [Worker-Main-20/INFO] [nekojs.server/]: [Import Test] 计算暴击伤害: 5 * 1.5 = 7.5
+[153月2026 13:54:22.121] [Worker-Main-20/INFO] [nekojs.server/]: [Import Test] 玩家互动: Hello, Steve! 欢迎来到现代化的 JS 魔改世界！
+[153月2026 13:54:22.121] [Worker-Main-20/INFO] [nekojs.server/]: SERVER 脚本重载完毕。
+[153月2026 13:54:22.247] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1515 recipes
+[153月2026 13:54:22.247] [Render thread/INFO] [com.tkisor.nekojs.NekoJS/]: [NekoJS] 拦截到主线程配方加载，准备执行 JS 脚本...
+[153月2026 13:54:22.249] [Render thread/INFO] [com.tkisor.nekojs.NekoJS/]: [NekoJS] 配方修改完毕！当前配方总数: 1515
+[153月2026 13:54:22.256] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1617 advancements
+[153月2026 13:54:22.258] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[153月2026 13:54:22.379] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 26.1 Snapshot 11
+[153月2026 13:54:22.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[153月2026 13:54:22.620] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[153月2026 13:54:22.621] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：16%
+[153月2026 13:54:22.633] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[153月2026 13:54:22.633] [Server thread/INFO] [com.tkisor.nekojs.NekoJS/]: [NekoJS] 服务器启动，正在加载 SERVER 脚本...
+[153月2026 13:54:23.012] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 49 chunks for player spawn...
+[153月2026 13:54:23.135] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 准备生成区域中：100%
+[153月2026 13:54:23.135] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 515 ms
+[153月2026 13:54:23.388] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:3fd0d0a0] logged in with entity id 1 at (-23.926314933755165, -60.0, 0.4429771354208348)
+[153月2026 13:54:23.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
+[153月2026 13:54:23.567] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 16, from 10
+[153月2026 13:54:23.570] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[153月2026 13:54:23.575] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Ignoring chat session from Dev due to missing Services public key
+[153月2026 13:54:23.577] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[153月2026 13:54:23.665] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[153月2026 13:54:23.715] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[153月2026 13:54:23.830] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[153月2026 13:54:23.875] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[153月2026 13:54:23.982] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[153月2026 13:54:24.035] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[153月2026 13:54:24.115] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[153月2026 13:54:24.240] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[153月2026 13:54:24.699] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[153月2026 13:54:25.112] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[153月2026 13:54:34.934] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[153月2026 13:54:34.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[153月2026 13:54:34.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[153月2026 13:54:34.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[153月2026 13:54:35.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[153月2026 13:54:35.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[153月2026 13:54:35.402] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 连接中断
+[153月2026 13:54:35.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev退出了游戏
+[153月2026 13:54:35.409] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[153月2026 13:54:35.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[153月2026 13:54:35.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[153月2026 13:54:35.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[153月2026 13:54:35.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[153月2026 13:54:35.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[153月2026 13:54:35.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[153月2026 13:54:35.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[153月2026 13:54:35.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[153月2026 13:54:36.348] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
