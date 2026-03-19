@@ -66,10 +66,30 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 jarJar.enabled = true
 dependencies {
     implementation files('libs/GraalJS-25.0.1-neoforge.jar')
-    implementation files('libs/nekojs-1.26.1.0.0-alpha-1.0.0.jar')
+    implementation files('libs/nekojs-1.26.1.0.0-alpha-1.0.2.jar')
 
-    jarJar(implementation 'com.caoccao.javet:swc4j:2.0.0')
-    jarJar(implementation 'com.caoccao.javet:swc4j-windows-x86_64:2.0.0')
+    implementation 'com.caoccao.javet:swc4j:2.0.0'
+    implementation 'com.caoccao.javet:swc4j-windows-x86_64:2.0.0'
+}
+
+tasks.withType(Jar).configureEach {
+    archiveBaseName.set(mod_id)
+    archiveVersion.set("${minecraft_version}-${mod_version}")
+
+    // 动态提取 swc4j 和 swc4j-windows-x86_64 的内容合并到你的 Mod 中
+    from({
+        configurations.runtimeClasspath.filter {
+            it.name.contains('swc4j')
+        }.collect { zipTree(it) }
+    }) {
+        exclude "META-INF/MANIFEST.MF"
+        exclude "META-INF/*.SF"
+        exclude "META-INF/*.DSA"
+        exclude "META-INF/*.RSA"
+        exclude "module-info.class"
+        exclude "META-INF/LICENSE*"
+        exclude "META-INF/NOTICE*"
+    }
 }
 
 tasks.withType(JavaCompile).configureEach {
@@ -89,7 +109,8 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
                              mod_license            : mod_license,
                              mod_version            : mod_version,
                              mod_authors            : mod_authors,
-                             mod_description        : mod_description]
+                             mod_description        : mod_description,
+                             nekojs_version_range   : nekojs_version_range]
     inputs.properties replaceProperties
     expand replaceProperties
     from "src/main/templates"
