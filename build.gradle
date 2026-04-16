@@ -10,6 +10,18 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+    repositories {
+        exclusiveContent {
+            forRepository {
+                maven {
+                    url "https://cursemaven.com"
+                }
+            }
+            filter {
+                includeGroup "curse.maven"
+            }
+        }
+    }
 }
 
 base {
@@ -65,11 +77,14 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 jarJar.enabled = true
 dependencies {
-    implementation files('libs/GraalJS-25.0.1-neoforge.jar')
-    implementation files('libs/nekojs-1.26.1.0.0-alpha-1.0.2.jar')
+//    implementation files('libs/GraalJS-25.0.1-neoforge.jar')
+    // 25.0.1.1
+    implementation("curse.maven:graal-1504336:7884547")
+    implementation files('libs/nekojs-26.1.2-1.0.7.jar')
 
-    implementation 'com.caoccao.javet:swc4j:2.0.0'
-    implementation 'com.caoccao.javet:swc4j-windows-x86_64:2.0.0'
+    implementation 'com.caoccao.javet:swc4j:2.1.0'
+//    implementation 'com.caoccao.javet:swc4j-windows-x86_64:2.1.0'
+    implementation 'com.caoccao.javet:swc4j-linux-x86_64:2.1.0'
 }
 
 tasks.withType(Jar).configureEach {
